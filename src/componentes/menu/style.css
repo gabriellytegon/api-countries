@@ -1,0 +1,37 @@
+.menu {
+  background-color: var(--element-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 32px;
+  box-shadow: var(--input-shadow);
+}
+
+.menu h1 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.menu p {
+  font-weight: 600;
+}
+
+.darkModeToggle {
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.dark .iconMoon {
+  color: white;
+}

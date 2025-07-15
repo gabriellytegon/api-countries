@@ -1,0 +1,30 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+:root {
+  --bg-color: hsl(0, 0%, 99%);
+  --element-bg: hsl(0, 100%, 100%);
+  --text-color: hsl(200, 15%, 8%);
+  --input-bg: hsl(0, 100%, 100%);
+  --input-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --placeholder-color: hsl(0, 0%, 50%);
+}
+
+html.dark {
+  --bg-color: hsl(207, 26%, 17%);
+  --element-bg: hsl(209, 23%, 22%);
+  --text-color: hsl(0, 100%, 100%);
+  --input-bg: hsl(209, 23%, 22%);
+  --input-shadow: 0 1px 3px rgba(0, 0, 0, 0.171);
+  --placeholder-color: hsl(0, 0%, 80%);
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

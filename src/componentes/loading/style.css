@@ -1,0 +1,15 @@
+.spinnerLoading {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--element-bg);
+}
+
+.textLoading {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}

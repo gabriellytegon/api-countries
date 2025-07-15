@@ -1,0 +1,46 @@
+.countryCard {
+  background-color: var(--element-bg);
+  min-height: 300px;
+  border-radius: 8px;
+  width: 248px;
+  box-shadow: var(--input-shadow);
+}
+
+.flagContainer {
+  height: 160px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.flagContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.informationsCountryCard {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nameCountryCard {
+  font-weight: 800;
+  flex-wrap: wrap;
+}
+
+.informationCard {
+  font-weight: 600;
+}
+
+.otherInformationsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+}
